@@ -3,11 +3,11 @@
     <div class="connection">
       <p class="alert">
         {{if #root.$connection.state === 'stopped'}}
-          Unable to reconnect &ndash; <a on="click: reload()">Reload</a>
+          Unable to reconnect &ndash; <a on-click="reload()">Reload</a>
         {{else}}
           {{sentenceCase(#root.$connection.state)}}
           {{unless hideReconnect}}
-            &sp;&ndash; <a on="click: reconnect()">Reconnect</a>
+            &sp;&ndash; <a on-click="reconnect()">Reconnect</a>
           {{/unless}}
         {{/if}}
       </p>
