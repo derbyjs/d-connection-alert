@@ -1,7 +1,7 @@
 <index:>
   {{if #root.$connection.state !== 'connected'}}
     <div class="connection">
-      <p class="alert">
+      <p class="alert alert-warning">
         {{if #root.$connection.state === 'stopped'}}
           Unable to reconnect &ndash; <a on-click="reload()">Reload</a>
         {{else}}
