@@ -1,9 +1,12 @@
 {
   "name": "d-connection-alert",
   "description": "Connection alert Derby component",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "main": "index.js",
-  "keywords": ["derby", "component"],
+  "keywords": [
+    "derby",
+    "component"
+  ],
   "repository": {
     "type": "git",
     "url": "git://github.com/codeparty/d-connection-alert.git"
