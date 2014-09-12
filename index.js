@@ -2,7 +2,7 @@ module.exports = ConnectionAlert;
 function ConnectionAlert() {}
 ConnectionAlert.prototype.view = __dirname;
 
-connectionAlert.prototype.create = function(model, dom) {
+ConnectionAlert.prototype.create = function(model, dom) {
   dom.on('beforeunload', window, function () {
     if (model.root.get('$connection.state') == 'connected') {
       model.root.set('_page.hideConnectionAlert', true);
