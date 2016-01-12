@@ -9,13 +9,17 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/codeparty/d-connection-alert.git"
+    "url": "git://github.com/derbyjs/d-connection-alert.git"
   },
   "bugs": {
-    "url": "https://github.com/codeparty/d-connection-alert/issues"
+    "url": "https://github.com/derbyjs/d-connection-alert/issues"
   },
   "author": "Nate Smith",
   "license": "MIT",
   "dependencies": {},
-  "devDependencies": {}
+  "devDependencies": {},
+  "homepage": "https://github.com/derbyjs/d-connection-alert#readme",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
 }
