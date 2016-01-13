@@ -1,5 +1,5 @@
 <index:>
-  {{if #root.$connection.state !== 'connected'}}
+  {{if #root.$connection.state !== 'connected' && !#root._page.hideConnectionAlert}}
     <div class="connection">
       <p class="alert alert-warning">
         {{if #root.$connection.state === 'stopped'}}
